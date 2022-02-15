@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,200;1,300;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,100;1,200&display=swap');
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+.Main-Nav{
+   
+}
+.Top-Bar{
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgb(4 17 29 / 25%) 0px 0px 8px 0px;
+    max-width: 100vw;
+    height: 72px;
+    position: sticky;
+    top: 0px;
+    z-index: 110;
+    transition: top 0.5s ease 0s;
+    background-color: rgb(255, 255, 255);
+}
+.Nav-Bar-Left{
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    position: relative;
+   
+}
+.Nav-Bar-Left img{
+        height: 50%;
+        padding-left: 30px;
+}
+.Search-Bar{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    margin-top: 13px;
+    margin-left: 175px;
+}
+.Search-In{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+.Search-In input{
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 10px;
+    width: 430px;
+    height: 45px;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.In i{
+    
+    position: absolute;
+    padding-top: 15px;
+    padding-left: 10px;
+    color: rgb(153, 153, 153);
+}
+
+.Lists{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.Block{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    list-style: none;
+    font-weight:600;
+    font-size: 15px;
+    
+
+}
+.Block li a {
+    text-decoration: none;
+    color: rgba(48, 48, 48, 0.75);
+    height: 100%;
+    width: 100%;
+    padding: 0px 20px;
+    position: relative;
+    
+}
+ #User{
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 20px;
+ }
+ 
+ #Wallet{
+   
+    font-size: 30px;
+    padding-left: 2px;
+ }
+
+ .Middle{
+     height: 586px;
+     /* background-image: url("/images/feature2.png"),linear-gradient(rgb(255, 255, 255),transparent); */
+     /* background-size: cover; */
+     /* background-position: center center; */
+     background-color: rgb(236, 233, 233);
+     /* opacity: 0.3; */
+     /* filter: blur(8px),transparent; */
+     /* -webkit-mask: linear-gradient(rgb(255, 255, 255), transparent); */
+ }
+.Two-Block{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin: 0px auto; */
+    /* max-width: min(1280px, 100% - 40px); */
+    width: 100%;
+    
+    
+
+}
+ .Left{
+     /* position: absolute; */
+     margin-top: 112px;
+     margin-left: 65px;
+     width: 50%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+ }
+ .H1{
+     font-size: 22px;
+ }
+ .H3{
+     font-size: 20px;
+     margin-right: 272px;
+     margin-top: 10px;
+     
+ }
+ .H3 h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+   color: rgb(63, 63, 63);
+ }
+
+ .Buttons{
+     display: flex;
+     flex-direction: row;
+     margin-top:50px;
+     
+ }
+ .Buttons a{
+     text-decoration: none;
+     font-family: 'Poppins', sans-serif;
+     margin-right: 20px;
+     font-size: 16px;
+     font-weight: 600;
+     padding: 12px 55px;
+     border-radius: 10px;
+   
+ }
+ .Button1{
+    
+ }
+
+ .Button1 a {
+    background-color: rgb(32, 129, 226);
+    border: 1px solid rgb(32, 129, 226);
+    color: rgb(255, 255, 255);
+   
+    
+ }
+ .Button2 a{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(32, 129, 226);
+    color: rgb(32, 129, 226);
+ }
+.LearnMore{
+    
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    top: 130px;
+}
+ .LearnMore a{
+    text-decoration: none;
+    color: rgb(32, 129, 226);
+ }
+ .LearnMore i{
+    float: left;
+ }
+ #Reup{
+    margin-left: 8px;
+ }
+
+ .Right{
+    
+     display: flex;
+     flex-direction: column;
+     padding: 40px 0px;   
+     
+ }
+ .Right-Image {
+    object-fit: cover;
+ }
+ .Right-Image img{
+     height: 420px;
+     width: 550px;
+     border-radius: 10px;
+     box-shadow: rgb(4 17 29 / 25%) 0px 0px 10px 0px;
+ }
+
+
+ 
+ .Right-Text{
+     display: flex;
+     padding: 16px;
+     background-color: rgb(255, 255, 255);
+     flex-direction: row;
+     
+    border-radius: 10px;
+
+ }
+ #User-Image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+ }
+ .Number-Tag{
+    font-family: 'Poppins', sans-serif;
+     display: flex;
+     flex-direction: column;
+     flex: 1 1 auto;
+     color: rgb(4, 17, 29);
+     font-weight: 600;
+     font-size: 14px;
+ }
+ #Name{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: rgb(32, 129, 226);
+    font-size: 14px;
+    font-weight: 500;
+ }
+ #Info-Icon{
+    color: rgb(139, 138, 138);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: inherit;
+    border: none;
+ }
+ 
+
+
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 210px;
+  z-index: 1;
+  box-shadow: rgb(0 0 0 / 16%) 0px 4px 16px;
+  
+    
+}
+.dropdown-content a {
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid rgb(229, 232, 235);
+  }
+
+  .dropdown-content  a i{
+      font-size: 16px;
+      position: relative;
+      top: 2px;
+      color: rgb(22, 119, 175);
+  }
+
+ .Socials{
+     display: flex;
+    justify-content: space-evenly;
+ }
+ .Socials a i {
+     color: rgb(134, 134, 134);
+ }
+ #Toggle{
+     color: black;
+     font-size: 30px;
+     position: relative;
+     top: 10px;
+     left: 20px;
+ }
+ 
+/* Hover Part */
+
+    .Explore:hover .dropdown-content{
+    display: block;
+    }
+
+    .Stats:hover .dropdown-content{
+        display: block;
+    }
+    .Resources:hover .dropdown-content{
+        display: block;
+    }
+    .User1:hover .dropdown-content{
+        display: block;
+    }
+
+    .dropdown-content a:hover{
+        box-shadow: rgb(0 0 0 / 16%) 0px 4px 16px;
+    }
+
+
+
+
+
+
